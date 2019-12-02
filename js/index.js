@@ -52,9 +52,16 @@ document.querySelector("h1").textContent = siteContent["cta"]["h1"];
 document.querySelector("button").textContent = siteContent["cta"]["button"];
 document.getElementById("cta-img").setAttribute('src', siteContent["cta"]["img-src"]);
 
-document.querySelector(".text-content:nth-child(1) > h4").textContent = siteContent["main-content"]["features-h4"];
-document.querySelector(".text-content:nth-child(1) > p").textContent = siteContent["main-content"]["features-content"];
-document.querySelector(".text-content:nth-child(2) > h4").textContent = siteContent["main-content"]["about-h4"];
-document.querySelector(".text-content:nth-child(2) > p").textContent = siteContent["main-content"]["about-content"];
+document.querySelector(".top-content > .text-content:nth-child(1) > h4").textContent = siteContent["main-content"]["features-h4"];
+document.querySelector(".top-content > .text-content:nth-child(1) > p").textContent = siteContent["main-content"]["features-content"];
+document.querySelector(".top-content > .text-content:nth-child(2) > h4").textContent = siteContent["main-content"]["about-h4"];
+document.querySelector(".top-content > .text-content:nth-child(2) > p").textContent = siteContent["main-content"]["about-content"];
 
 document.getElementById("middle-img").setAttribute('src', siteContent["main-content"]["middle-img-src"]);
+
+document.querySelector(".bottom-content > .text-content:nth-child(1) > h4").textContent = siteContent["main-content"]["services-h4"];
+document.querySelector(".bottom-content > .text-content:nth-child(1) > p").textContent = siteContent["main-content"]["services-content"];
+document.querySelector(".bottom-content > .text-content:nth-child(2) > h4").textContent = siteContent["main-content"]["product-h4"];
+document.querySelector(".bottom-content > .text-content:nth-child(2) > p").textContent = siteContent["main-content"]["product-content"];
+document.querySelector(".bottom-content > .text-content:nth-child(3) > h4").textContent = siteContent["main-content"]["vision-h4"];
+document.querySelector(".bottom-content > .text-content:nth-child(3) > p").textContent = siteContent["main-content"]["vision-content"];
