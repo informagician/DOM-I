@@ -75,13 +75,16 @@ document.querySelector("footer > p").textContent = siteContent["footer"]["copyri
 
 //Task 3
 let navLink = document.getElementsByTagName("a");
-for(let i=0;i<nav.length;i++) {
+for (let i=0; i< navLink.length;i++) {
   navLink[i].style.color = "green";
 }
 
-let nav = document.getElementsByTagName("nav");
+let nav = document.querySelector("nav");
 
-const appendNav = document.createElement('a');
-appendNav.setAttribute('href', '#');
+let appendNav = document.createElement('a');
 appendNav.textContent = "Append";
 nav.appendChild(appendNav);
+
+let prependNav = document.createElement('a');
+prependNav.textContent = "Prepend";
+nav.prepend(prependNav);
