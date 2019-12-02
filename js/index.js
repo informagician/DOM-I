@@ -70,3 +70,5 @@ document.querySelector(".contact > h4").textContent = siteContent["contact"]["co
 document.querySelector(".contact > p:nth-child(2)").textContent = siteContent["contact"]["address"];
 document.querySelector(".contact > p:nth-child(3)").textContent = siteContent["contact"]["phone"];
 document.querySelector(".contact > p:nth-child(4)").textContent = siteContent["contact"]["email"];
+
+document.querySelector("footer > p").textContent = siteContent["footer"]["copyright"];
