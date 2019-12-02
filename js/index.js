@@ -47,3 +47,7 @@ document.querySelector("a:nth-child(3)").textContent = siteContent["nav"]["nav-i
 document.querySelector("a:nth-child(4)").textContent = siteContent["nav"]["nav-item-4"];
 document.querySelector("a:nth-child(5)").textContent = siteContent["nav"]["nav-item-5"];
 document.querySelector("a:nth-child(6)").textContent = siteContent["nav"]["nav-item-6"];
+
+document.querySelector("h1").textContent = siteContent["cta"]["h1"];
+document.querySelector("button").textContent = siteContent["cta"]["button"];
+document.getElementById("cta-img").setAttribute('src', siteContent["cta"]["img-src"]);
