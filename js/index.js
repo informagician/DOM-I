@@ -72,3 +72,16 @@ document.querySelector(".contact > p:nth-child(3)").textContent = siteContent["c
 document.querySelector(".contact > p:nth-child(4)").textContent = siteContent["contact"]["email"];
 
 document.querySelector("footer > p").textContent = siteContent["footer"]["copyright"];
+
+//Task 3
+let navLink = document.getElementsByTagName("a");
+for(let i=0;i<nav.length;i++) {
+  navLink[i].style.color = "green";
+}
+
+let nav = document.getElementsByTagName("nav");
+
+const appendNav = document.createElement('a');
+appendNav.setAttribute('href', '#');
+appendNav.textContent = "Append";
+nav.appendChild(appendNav);
