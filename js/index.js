@@ -88,3 +88,9 @@ nav.appendChild(appendNav);
 let prependNav = document.createElement('a');
 prependNav.textContent = "Prepend";
 nav.prepend(prependNav);
+
+
+// Stretch
+document.querySelector("button").addEventListener("click", function(){
+  document.querySelector(".cta-text").innerHTML = "Hello World";
+});
