@@ -56,3 +56,5 @@ document.querySelector(".text-content:nth-child(1) > h4").textContent = siteCont
 document.querySelector(".text-content:nth-child(1) > p").textContent = siteContent["main-content"]["features-content"];
 document.querySelector(".text-content:nth-child(2) > h4").textContent = siteContent["main-content"]["about-h4"];
 document.querySelector(".text-content:nth-child(2) > p").textContent = siteContent["main-content"]["about-content"];
+
+document.getElementById("middle-img").setAttribute('src', siteContent["main-content"]["middle-img-src"]);
